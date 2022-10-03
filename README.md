@@ -1,3 +1,3 @@
 # clone coding 2022
 
-study more better
+HTML & CSS are so funny!!
