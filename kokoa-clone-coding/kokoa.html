@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="kokoa.css">
-    <title>Document</title>
+    <title>kokoa-talk</title>
 </head>
 <body>
-    <div class=""></div>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>20:22</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KokoaTalk</h1>
+        <p class="welcome-header__text">
+            If you have a Kokoa Account, log in with your email or phone number.
+        </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+        <input type="text" placeholder="Email or phone">
+        <input type="password" placeholder="Password">
+        <input type="submit" value="Log In">
+    </form>
+
+    <script src="https://kit.fontawesome.com/c55dff0e66.js" crossorigin="anonymous">
+    </script>
 </body>
 </html>
