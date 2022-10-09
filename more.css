@@ -1,0 +1,11 @@
+.more-suggestions__title {
+    margin: 30px 25px;
+}
+.more-suggestions__icons {
+    padding: 25px;
+    display: flex;
+}
+.more-suggestions__icon i{
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
