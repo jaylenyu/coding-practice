@@ -18,16 +18,34 @@
     position: relative;
 }
 
+@keyframes notificationAnimation {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px) rotateY(360deg);
+    }
+    100%{
+        transform:none;
+    }
+}
+
 .nav__notification {
-    background-color:tomato;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: white;
     position: absolute;
     left: 18px;
     bottom: 15px;
+    animation:notificationAnimation 1s ease-in-out infinite;
+}
+
+@keyframes appearBtnAnimation {
+    from{
+        transform: translateY(80px);
+    }
+    to {
+        opacity: 0.5s;
+        transform:none;
+    }
+}
+.nav__btn {
+    animation: appearBtnAnimation 0.3s ease-in-out;
 }
